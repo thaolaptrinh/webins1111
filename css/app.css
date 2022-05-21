@@ -1,0 +1,136 @@
+@import url(./layout.css);
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #4f5665;
+  background-color: #ffffff;
+}
+
+/* Header -START */
+
+.header {
+  padding-top: 50px;
+  padding-bottom: 77px;
+}
+
+.header-container {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 40px;
+}
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: inherit;
+}
+
+.header-auth {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-auth > a {
+  text-decoration: none;
+}
+
+.header-signin {
+  color: #0b132a;
+  font-weight: 500;
+}
+
+.header-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f53855;
+  font-weight: 500;
+  padding: 13px 45px;
+  border: 1px solid #f53855;
+  border-radius: 100rem;
+}
+
+/* Header - END  */
+
+/* SECTION - ABOUT  - START */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-content {
+  padding-top: 43px;
+  padding-right: 30px;
+}
+
+.about-heading {
+  font-weight: 700;
+  font-size: 3.125em;
+  padding-bottom: 30px;
+  color: #0b132a;
+}
+
+.about-desc {
+  color: inherit;
+  font-weight: 400;
+  font-size: inherit;
+  padding-bottom: 60px;
+}
+
+.about-btn {
+  color: #ffffff;
+  text-decoration: none;
+  border-style: none;
+  padding: 15px 58px;
+  background-color: #f53838;
+  border-radius: 10px;
+  box-shadow: 1px 15px 30px rgba(245, 56, 56, 0.35);
+}
+
+.about-img {
+  padding-bottom: 58px;
+}
+
+/* SECTION - ABOUT  - END */
+
+/* SECTION - STATUS - START */
+
+.status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 67px 60px;
+  gap: 0px 325px;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-icon {
+  font-size: 45px;
+  padding-right: 65px;
+}
+
+/* SECTION - STATUS - END */
