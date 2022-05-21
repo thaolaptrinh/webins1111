@@ -133,4 +133,14 @@ html {
   padding-right: 65px;
 }
 
+.status-icon-users {
+  color: #3862f5;
+}
+.status-icon-list {
+}
+
+.status-icon-clipboard {
+  color: #41cb81;
+}
+
 /* SECTION - STATUS - END */
